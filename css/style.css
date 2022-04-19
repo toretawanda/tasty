@@ -488,7 +488,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-featured-menu .fh5co-item, #fh5co-gallery .fh5co-item, #fh5co-reservation-form .fh5co-item {
   float: left;
   width: 100%;
-  backround: #fff;
+  /*backround: #fff;*/
 }
 #fh5co-featured-menu .fh5co-item.margin_top, #fh5co-gallery .fh5co-item.margin_top, #fh5co-reservation-form .fh5co-item.margin_top {
   margin-top: 150px;
@@ -1134,7 +1134,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
 }
 .fh5co-portfolio > a:hover {
-  webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
   box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
 }
@@ -1376,7 +1376,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1784,3 +1784,34 @@ textarea {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* MY CUSTOM STYLES*/
+
+.custom-header h2{
+  font-size:50px;
+}
+
+.move-up-125{
+  margin-top:-125px;
+}
+
+.move-down-1000{
+  margin-top:1000px;
+}
+
+.position-absolute{
+  position:absolute;
+}
+
+.move-up-460{
+  margin-top:-460px;
+}
+
+@media (min-width: 992px){
+  .col-md-push-1 {
+    left: 29.33333%;
+}
+
+.col-md-push-2 {
+  left: 8.33333%;
+}
+}
