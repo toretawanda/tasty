@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.9);
   background: #000 url(../images/broken_noise.png) repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-section p {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.333);
   font-size: 18px;
   line-height: 1.5;
 }
@@ -453,6 +453,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   margin-bottom: 50px;
+  
 }
 .section-heading h2 {
   font-style: 40px;
@@ -1785,9 +1786,39 @@ textarea {
 
 /*# sourceMappingURL=style.css.map */
 /* MY CUSTOM STYLES*/
+.menu-item > h3{
+  float:left;
+}
 
-.custom-header h2{
-  font-size:50px;
+.menu-item > h2{
+  float:left;
+}
+
+.menu-item > .menu-price{
+  float:right;
+  margin-top:-12px;
+  margin-bottom:5px;
+}
+
+.text-color-red{
+  color:#ea272d;
+}
+
+.text-color-yellow{
+  color:#fee856;
+}
+
+.text-color-green{
+  color:#68e450;
+}
+
+
+.menu-note{
+  margin-top:-18px;
+}
+
+.move-up-30{
+  margin-top:-30px;
 }
 
 .move-up-125{
@@ -1803,15 +1834,69 @@ textarea {
 }
 
 .move-up-460{
-  margin-top:-460px;
+  margin-top:-400px;
 }
 
 @media (min-width: 992px){
   .col-md-push-1 {
+    left: 35.33333%;
+  }
+  .col-md-push-2 {
+    left: 8.33333%;
+  }
+  .col-md-push-3 {
     left: 29.33333%;
+  }
+  .col-md-push-4 {
+    left: 66.33333%;
+  }
+
 }
 
-.col-md-push-2 {
-  left: 8.33333%;
+.banner{
+  width:870px;
+  height:520px;
+  background-size: cover;
+  background-position: center;
 }
+
+.image-overlay{
+  background-color:#0000004d;
+}
+
+.specials-pizza-image{
+  background-image: url('../images/Pizza_640.jpg');
+}
+
+.specials-break-image{
+  background-image: url('../images/Sandwich_640.jpg');
+}
+
+.specials-meal-image{
+  background-image: url('../images/Burger_640.jpg');
+}
+
+
+.intro-image{
+  background-image: url('../images/Cafe_1280.jpg');
+}
+
+.menu-breakfast-image{
+  background-image: url('../images/Menu_Breakfast_Banner.jpg');
+}
+
+.menu-sandwich-image{
+  background-image: url('../images/Sandwich-Chees_640.jpg');
+}
+
+.menu-burger-image{
+  background-image: url('../images/Burger_Beef_640.jpg');
+}
+
+.menu-shawarma-image{
+  background-image: url('../images/Shawarma_640.jpg');
+}
+
+.menu-pizza-image-1{
+  background-image: url('../images/Pizza_640.jpg');
 }
