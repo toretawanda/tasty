@@ -1051,12 +1051,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-blog .blog-bg {
   display: block;
-  width: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 300px;
+  height: 315px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .blog-bg {
@@ -1066,7 +1065,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
-  width: 100%;
   padding: 30px;
   float: left;
   background: rgba(255, 255, 255, 0.03);
@@ -1080,8 +1078,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 14px !important;
-  color: rgba(0, 0, 0, 0.3);
+  font-size: 18px !important;
+  color:#fee856;
 }
 .fh5co-blog .blog-text .stuff {
   margin: 0;
@@ -1837,7 +1835,17 @@ textarea {
   margin-top:-400px;
 }
 
+
+
 @media (min-width: 992px){
+
+  .banner{
+    width:840px;
+    height:550px;
+    background-size: cover;
+    background-position: center;
+  }
+
   .col-md-push-1 {
     left: 35.33333%;
   }
@@ -1851,52 +1859,63 @@ textarea {
     left: 66.33333%;
   }
 
+  .testimony{
+    width:450px;
+    height:675px;
+    background-size:cover;
+    background-position: center;
+  }
+
 }
 
-.banner{
-  width:870px;
-  height:520px;
-  background-size: cover;
-  background-position: center;
-}
+@media (max-width: 992px){
 
-.image-overlay{
-  background-color:#0000004d;
+  .testimony{
+    width:100%;
+    background-size:cover;
+    background-position: center;
+  }
+  .banner{
+    width:100%;
+  
+    background-size: cover;
+    background-position: center;
+  }
+
 }
 
 .specials-pizza-image{
-  background-image: url('../images/Pizza_640.jpg');
+  background-image: url('../images/img-special-pizza.jpg');
 }
 
 .specials-break-image{
-  background-image: url('../images/Sandwich_640.jpg');
+  background-image: url('../images/img-special-cake.jpg');
 }
 
 .specials-meal-image{
-  background-image: url('../images/Burger_640.jpg');
+  background-image: url('../images/img-special-burger.jpg');
 }
 
-
-.intro-image{
-  background-image: url('../images/Cafe_1280.jpg');
+.width-100{
+  width: 100%;
 }
 
-.menu-breakfast-image{
-  background-image: url('../images/Menu_Breakfast_Banner.jpg');
+.width-30{
+  width: 30%;
 }
 
-.menu-sandwich-image{
-  background-image: url('../images/Sandwich-Chees_640.jpg');
+.width-70{
+  width: 70%;
 }
 
-.menu-burger-image{
-  background-image: url('../images/Burger_Beef_640.jpg');
+.float-left{
+  float:left;
 }
 
-.menu-shawarma-image{
-  background-image: url('../images/Shawarma_640.jpg');
+.float-right{
+  float:right;
 }
 
-.menu-pizza-image-1{
-  background-image: url('../images/Pizza_640.jpg');
+.fh5co-blog .blog-text:hover{
+  background-color:rgba(255, 255, 255, 0.2);
 }
