@@ -1,9 +1,8 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE HTML>html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tasty &mdash; The free restaurant that needs your food</title>
+	<title>Mshengu &mdash; The free restaurant that needs your food</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="The free restaurant that gives food" />
 	<meta name="keywords" content="restaurant, free food " />
@@ -31,6 +30,8 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Flexslider  -->
 	<link rel="stylesheet" href="css/flexslider.css">
+		<!-- Search Button-->
+	<link rel="stylesheet" href="css/search_b.css">
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
@@ -42,9 +43,13 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+		<! Testing a button -->
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	</head>
 	<body>
-		
+		<! This is the upper part of the website -->
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
@@ -53,10 +58,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-center logo-wrap">
-						<div id="fh5co-logo"><a href="index.html">Tasty<span>.</span></a></div>
+						<div id="fh5co-logo"><a href="index.html">Mshengu<span>.</span></a></div>
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
+
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="menu.html">Menu</a></li>
 							<li class="has-dropdown">
@@ -70,56 +76,69 @@
 							<li><a href="reservation.html">Reservation</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="contact.html">Contact</a></li>
+
+							<!-- The form -->
+							<form class="example" action="action_page.php">
+	  							<input type="text" placeholder="Search.." name="search">
+	  							<button type="submit"><i class="fa fa-search"></i></button>
+							</form>
+
 						</ul>
+						
 					</div>
 				</div>
 				
 			</div>
 		<!-- </div> -->
 	</nav>
+<! this here is the header with a big text on it-->
 
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/foodie.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<h1>The Best Coffee <em>&amp;</em> Restaurant <em>in</em> Brooklyn</h1>
-							<h2>Brought to you by <a href="http://acrosoft.co.za/" target="_blank">acrosoft</a></h>
+							<h1> We are always in the good mood for <em><b>FOOD.</em></b> </h1>
+							<h2>Brought to you by <a href="http//:healthupdate.co.za/" target="_blank">foodie</a></h2>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+<! The Part about restruant -->
 
 	<div id="fh5co-about" class="fh5co-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
-					<img src="images/hero_1.jpeg" alt=" Restaurant Bootstrap Website Template by acrosoft.co.za">
+					<img src="images/table.jpg" alt=" Restaurant Bootstrap Website Template by acrosoft.co.za">
 				</div>
 				<div class="col-md-5 col-md-push-1 animate-box">
 					<div class="section-heading">
 						<h2>The Restaurant</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae neque quisquam at deserunt ab praesentium architecto tempore saepe animi voluptatem molestias, eveniet aut laudantium alias, laboriosam excepturi, et numquam? Atque tempore iure tenetur perspiciatis, aliquam, asperiores aut odio accusamus, unde libero dignissimos quod aliquid neque et illo vero nesciunt. Sunt!</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam iure reprehenderit nihil nobis laboriosam beatae assumenda tempore, magni ducimus abentey.</p>
+						<p>Mshengu story begins in 1995 when the very first restaurant opened in a small retail space in Malamulele, South Africa, but the stage was set long before…!</p>
+
+						<p>The Mediterranean spirit of generosity, quality ingredients and simplicity inspire our menu, inviting you to experience the fabulous flavours of the local with friends and family</p>
 						<p><a href="#" class="btn btn-primary btn-outline">Our History</a></p>
+						<button  type="button" class="btn btn-secondary">Our History</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+<! This is the menu for our restaurant
 
 	<div id="fh5co-featured-menu" class="fh5co-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Today's Menu</h2>
+					<h2> Menu For Today </h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
+							<p>Today’s Menu was born out of a love of food.  Determined to create higher quality frozen healthy prepared meals was our founder's "field of dreams". If he made it, they would eat it. Our team of highly talented and passionate chefs have been creating a real food menu since 2002. Using the highest quality ingredients to ensure you enjoy every bite. When you could use a helping hand in the kitchen, we make it easy to nourish yourself and the people you care about.</p>
 						</div>
 					</div>
 				</div>
@@ -127,7 +146,7 @@
 				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
 					<div class="fh5co-item">
 						<img src="images/gallery_9.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
-						<h3>Bake Potato Pizza</h3>
+						<h3>Chicken Pot Pie</h3>
 						<span class="fh5co-price">R20<sup>.50</sup></span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
 					</div>
@@ -135,7 +154,7 @@
 				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
 					<div class="fh5co-item margin_top">
 						<img src="images/gallery_8.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
-						<h3>Salted Fried Chicken</h3>
+						<h3>Classic Beef Lasagna</h3>
 						<span class="fh5co-price">R19<sup>.00</sup></span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
 					</div>
@@ -144,7 +163,7 @@
 				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
 					<div class="fh5co-item">
 						<img src="images/gallery_7.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
-						<h3>Italian Sauce Mushroom</h3>
+						<h3>Homemade Fish Soup</h3>
 						<span class="fh5co-price">R17<sup>.99</sup></span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
 					</div>
@@ -152,7 +171,7 @@
 				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
 					<div class="fh5co-item margin_top">
 						<img src="images/gallery_6.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
-						<h3>Fried Potato w/ Garlic</h3>
+						<h3>Oatmeal chocolate chip</h3>
 						<span class="fh5co-price">R22<sup>.50</sup></span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
 					</div>
@@ -330,8 +349,8 @@
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-4 fh5co-widget">
-					<h4>Tasty</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<h4>Mshengu</h4>
+					<p>We have done the heavy lifting! There is a great deal of time and thought that goes into every recipe. Our team is passionately aware that meals need to be both quick to serve and delicious to eat. All meals arrive frozen & sealed, designed to be stored and stacked. The original "Home Edit" of the freezer. Thoughtful consideration with minimal packaging. Complete ingredient list and reheating instructions. All you have to do is enjoy!.</p>
 				</div>
 				<div class="col-md-2 col-md-push-1 fh5co-widget">
 					<h4>Links</h4>
@@ -357,10 +376,10 @@
 				<div class="col-md-4 col-md-push-1 fh5co-widget">
 					<h4>Contact Information</h4>
 					<ul class="fh5co-footer-links">
-						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-						<li><a href="http://https://acrosoft.co.za">Acrosoft</a></li>
+						<li>123 Avenue,Stret <br> Goodwood park Cape Town</li>
+						<li><a href="tel://0718377741">+2715 297 1051</a></li>
+						<li><a href="mailto:xhobyahyni@gmail.com">xhobyani@gmail.com</a></li>
+						<li><a href="http://healthupdate.co.za">Mshengu</a></li>
 					</ul>
 				</div>
 
@@ -370,7 +389,7 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2022  All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://acrosoft.co.za/" target="_blank">Acrosoft</a> Demo Images: <a href="https://pixabay.com/" target="_blank">Unsplash</a></small>
+						<small class="block">Designed by <a href="http://healthupdate.co.za/" target="_blank">HobyaniX</a> Demo Images: <a href="https://pixabay.com/" target="_blank">Project</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
