@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html>
+	<html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tasty &mdash; The free restaurant that needs your food</title>
+	<title>Mshengu &mdash; The free restaurant that needs your food</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="The free restaurant that gives food" />
 	<meta name="keywords" content="restaurant, free food " />
@@ -20,8 +20,11 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	<! The Fonts
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -31,6 +34,8 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Flexslider  -->
 	<link rel="stylesheet" href="css/flexslider.css">
+		<!-- Search Button-->
+	<link rel="stylesheet" href="css/search_b.css">
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
@@ -42,9 +47,13 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+		<! Testing a button -->
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	</head>
 	<body>
-		
+		<! This is the upper part of the website -->
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
@@ -53,10 +62,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-center logo-wrap">
-						<div id="fh5co-logo"><a href="index.html">Tasty<span>.</span></a></div>
+						<div id="fh5co-logo"><a href="index.html">Mshengu<span>.</span></a></div>
 					</div>
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
 						<ul>
+
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="menu.html">Menu</a></li>
 							<li class="has-dropdown">
@@ -70,23 +80,32 @@
 							<li><a href="reservation.html">Reservation</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="contact.html">Contact</a></li>
+
+							<!-- The form -->
+							<form class="example" action="action_page.php">
+	  							<input type="text" placeholder="Search.." name="search">
+	  							<button type="submit"><i class="fa fa-search"></i></button>
+							</form>
+
 						</ul>
+						
 					</div>
 				</div>
 				
 			</div>
 		<!-- </div> -->
 	</nav>
+<! this here is the header with a big text on it-->
 
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/headd.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<h1>The Best Coffee <em>&amp;</em> Restaurant <em>in</em> Brooklyn</h1>
-							<h2>Brought to you by <a href="http://acrosoft.co.za/" target="_blank">acrosoft</a></h>
+							<h1> We are always in the good mood for <em><b>FOOD.</em></b> </h1>
+							<h2>Brought to you by <a href="http//:healthupdate.co.za/" target="_blank">foodie</a></h2>
 						</div>
 					</div>
 				</div>
@@ -94,72 +113,79 @@
 		</div>
 	</header>
 
+<! The Part about restruant -->
+
 	<div id="fh5co-about" class="fh5co-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
-					<img src="images/hero_1.jpeg" alt=" Restaurant Bootstrap Website Template by acrosoft.co.za">
+					<img src="images/Rh.jpg" alt=" Restaurant Bootstrap Website Template by acrosoft.co.za">
 				</div>
 				<div class="col-md-5 col-md-push-1 animate-box">
 					<div class="section-heading">
 						<h2>The Restaurant</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae neque quisquam at deserunt ab praesentium architecto tempore saepe animi voluptatem molestias, eveniet aut laudantium alias, laboriosam excepturi, et numquam? Atque tempore iure tenetur perspiciatis, aliquam, asperiores aut odio accusamus, unde libero dignissimos quod aliquid neque et illo vero nesciunt. Sunt!</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam iure reprehenderit nihil nobis laboriosam beatae assumenda tempore, magni ducimus abentey.</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Our History</a></p>
+						<p>Mshengu story begins in 1995 when the very first restaurant opened in a small retail space in Malamulele, South Africa, but the stage was set long before…!</p>
+
+						<p>The Mediterranean spirit of generosity, quality ingredients and simplicity inspire our menu, inviting you to experience the fabulous flavours of the local with friends and family</p>
+					
+						<p><a href = "#" class = "btn btn-secondary btn-outline active"  role ="button"> Our History</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+<! This is the menu for our restaurant -->
+
 	<div id="fh5co-featured-menu" class="fh5co-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Today's Menu</h2>
+					<h2><b> Menu For Today</b> </h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
+							<p>Today’s Menu was born out of a love of food.  Determined to create higher quality frozen healthy prepared meals was our founder's "field of dreams". If he made it, they would eat it. Our team of highly talented and passionate chefs have been creating a real food menu since 2002. Using the highest quality ingredients to ensure you enjoy every bite. When you could use a helping hand in the kitchen, we make it easy to nourish yourself and the people you care about.</p>
 						</div>
 					</div>
 				</div>
 				
 				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
 					<div class="fh5co-item">
-						<img src="images/gallery_9.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
-						<h3>Bake Potato Pizza</h3>
+						<img src="images/chicken.jpg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
+						<h3>Chicken Pot Pie</h3>
 						<span class="fh5co-price">R20<sup>.50</sup></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+						<p> This chicken Pie was made from our free range chickens that we source locally to help our local farmers, it was raised from maize grown locally. it does not have artificil products</p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
 					<div class="fh5co-item margin_top">
-						<img src="images/gallery_8.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
-						<h3>Salted Fried Chicken</h3>
+						<img src="images/lasagne.jpg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
+						<h3>Classic Beef Lasagne</h3>
 						<span class="fh5co-price">R19<sup>.00</sup></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+						<p> Our very own home made beef Lasagne with zero fats because our cattles from the local farm takes a walk in the morning and jog before sunset and lead a healthy lifestyle so you dont have to.</p>
 					</div>
 				</div>
 				<div class="clearfix visible-sm-block visible-xs-block"></div>
 				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
 					<div class="fh5co-item">
-						<img src="images/gallery_7.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
-						<h3>Italian Sauce Mushroom</h3>
+						<img src="images/fish.jpg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
+						<h3>Homemade Fish Soup</h3>
 						<span class="fh5co-price">R17<sup>.99</sup></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+						<p>This fish used to make our soup grew up with both parents and the father tucked him to bed everynight and read him a bed time story, it was unfortunate that he was caught ..</p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
 					<div class="fh5co-item margin_top">
-						<img src="images/gallery_6.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
-						<h3>Fried Potato w/ Garlic</h3>
+						<img src="images/oatmeal.jpg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by acrosoft">
+						<h3>Oatmeal chocolate chip</h3>
 						<span class="fh5co-price">R22<sup>.50</sup></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+						<p> If you are like me and you love sugar this will be an exciting dish to order and i promise you will not regret, the oats were harvested from my uncle's back garden.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+<! The testimonials -->
 
 	<div id="fh5co-featured-testimony" class="fh5co-section">
 		<div class="container">
@@ -168,31 +194,33 @@
 					<h2>Testimony</h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis.</p>
+							<p> When my husband and I open the restuarant we only had one chicken that we were planning n eating that particular night, We had an idea of inviting our neihbours to come taste our food and they loved it. We decided to cook for people from then and it has ben a succes! </p>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-md-5 animate-box img-to-responsive animate-box" data-animate-effect="fadeInLeft">
-						<img src="images/person_1.jpg" alt="">
+						<img src="images/personn_1.jpg" alt="">
 				</div>
 				<div class="col-md-7 animate-box" data-animate-effect="fadeInRight">
 					<blockquote>
-						<p> &ldquo; Quantum ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam. &rdquo;</p>
-						<p class="author"><cite>&mdash; Jane Smith</cite></p>
+						<p> &ldquo; The food i was served from this restuarant was the best food i ever ate my entire life, i will definetly bring my family so they can also experince the heaven from this food. &rdquo;</p>
+						<p class="author"><cite>&mdash; Mshengu Rivombo</cite></p>
 					</blockquote>
 				</div>
 			</div>
 		</div>
 	</div>
 
+<! Special of the day with slide -->
+
 	<div id="fh5co-slider" class="fh5co-section animate-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 animate-box">
 					<div class="fh5co-heading">
-						<h2>Our Best <em>&amp;</em> Unique Menu</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis!</p>
+						<h2>Our Best <em>&amp;</em> Special of the day</h2>
+						<p>What is offered in this part of the menu is the special of the day, it depends on the availability of the stock and the food our chef is cooking at that particular moment, with this said the menu changes periodically and with seasons</p>
 					</div>
 				</div>
 				<div class="col-md-6 col-md-push-1 animate-box">
@@ -206,8 +234,8 @@
 						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
-													<h2>Crab <em>with</em> Curry Sources</h2>
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eveniet quae, numquam magnam doloribus eligendi ratione rem, consequatur quos natus voluptates est totam magni! Nobis a temporibus, ipsum repudiandae dolorum.</p>
+													<h2>Zebra Ribs <em>with</em> marriage sauce</h2>
+													<p> This zebra was chased barefoot by our hunters for miles, it was killed with kindness under the shade, cooked by our best chefs to perfection. The ribs were carefully selected to best serve our customers.</p>
 													<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
 						   					</div>
 						   				</div>
@@ -222,8 +250,8 @@
 						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
 						   				<div class="slider-text-inner">
 						   					<div class="desc">
-													<h2>Tuna <em>&amp;</em> Roast Beef</h2>
-													<p>Ink is a free html5 bootstrap and a multi-purpose template perfect for any type of websites. A combination of a minimal and modern design template. The features are big slider on homepage, smooth animation, product listing and many more</p>
+													<h2>Fish Pizza <em>&amp;</em> Side Chips</h2>
+													<p> Our lakes and dams produce the best fish to ever exist, we specially dry them with less spicies to preserve the taste and use fresh produce as our toppings. the sauces are locally produced</p>
 													<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
 						   					</div>
 						   				</div>
@@ -255,25 +283,27 @@
 		</div>
 	</div>
 
+<! This is the part about things not related to the website, photoshoot and stuff -->
+
 	<div id="fh5co-blog" class="fh5co-section">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Events</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, consequatur. Aliquam quaerat pariatur repellendus veniam nemo, saepe, culpa eius aspernatur cumque suscipit quae nobis illo tempora. Eum veniam necessitatibus, blanditiis facilis quidem dolore! Dolorem, molestiae.</p>
+					<p> When we are not cooking a storm, these are the activities we do to keep the ball rolling, my personal favourate is going to the water and take pictures of the creatures living there. We do this to sort of raise funds to help with the running of the restuarant</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/gallery_1.jpeg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/photoshoot.jpg);"></a>
 						<div class="blog-text">
-							<span class="posted_on">Feb. 15th 2016</span>
+							<span class="posted_on">01 Oct 2019</span>
 							<h3><a href="#">Photoshoot On The Street</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p> For attracting attention, auto-flash off, and auto-off to prevent overheating. Some are designed for topside, as well as underwater use. I am really trying to get this done</p>
 							<ul class="stuff">
-								<li><i class="icon-heart2"></i>1.2K</li>
-								<li><i class="icon-eye2"></i>2K</li>
+								<li><i class="icon-heart2"></i>8.9K</li>
+								<li><i class="icon-eye2"></i>2.6K</li>
 								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
@@ -281,14 +311,14 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/gallery_2.jpeg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/Surfing.jpg);"></a>
 						<div class="blog-text">
-							<span class="posted_on">Feb. 15th 2016</span>
+							<span class="posted_on">23 Aug 1995</span>
 							<h3><a href="#">Surfing at Philippines</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<p>A multitude of options are available including: different mounts, interchangeable heads, incremental power settings, red setting (used when illuminating shy creatures).</p>
 							<ul class="stuff">
 								<li><i class="icon-heart2"></i>1.2K</li>
-								<li><i class="icon-eye2"></i>2K</li>
+								<li><i class="icon-eye2"></i>8K</li>
 								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
@@ -296,42 +326,46 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/gallery_3.jpeg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/Underwater.jpg);"></a>
 						<div class="blog-text">
-							<span class="posted_on">Feb. 15th 2016</span>
-							<h3><a href="#">Focus On Uderwater</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<span class="posted_on">23 July 2013</span>
+							<h3><a href="#">Focus On Underwater</a></h3>
+							<p>Focus lights come with a range of power outputs, and beam angles to suit most needs. They can be attached direcly to your housing cold-shoe, or strobe arms using tri-clamps.</p>
 							<ul class="stuff">
-								<li><i class="icon-heart2"></i>1.2K</li>
-								<li><i class="icon-eye2"></i>2K</li>
+								<li><i class="icon-heart2"></i>14.2K</li>
+								<li><i class="icon-eye2"></i>2.8K</li>
 								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Book a Table</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae enim quae vitae cupiditate, sequi quam ea id dolor reiciendis consectetur repudiandae. Rem quam, repellendus veniam ipsa fuga maxime odio? Eaque!</p>
-					<p><a href="reservation.html" class="btn btn-primary btn-outline">Book Now</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<! Booking a table -->
+
+	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/blue-.png);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Book a Table</h2>
+					<p> To avoid having to wait to be catered, why not book a table in advance and have your own waiter assigned for you. upon arrival you will be taken to your assigned table.</p>
+					<p><a href="reservation.html" class="btn btn-primary btn-outline">Book Here</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<! Widget at the botton -->
+
 	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-4 fh5co-widget">
-					<h4>Tasty</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<h4>Mshengu</h4>
+					<p>We have done the heavy lifting! There is a great deal of time and thought that goes into every recipe. Our team is passionately aware that meals need to be both quick to serve and delicious to eat. All meals arrive frozen & sealed, designed to be stored and stacked. The original "Home Edit" of the freezer. Thoughtful consideration with minimal packaging. Complete ingredient list and reheating instructions. All you have to do is enjoy!.</p>
 				</div>
 				<div class="col-md-2 col-md-push-1 fh5co-widget">
 					<h4>Links</h4>
@@ -357,10 +391,10 @@
 				<div class="col-md-4 col-md-push-1 fh5co-widget">
 					<h4>Contact Information</h4>
 					<ul class="fh5co-footer-links">
-						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-						<li><a href="http://https://acrosoft.co.za">Acrosoft</a></li>
+						<li>123 Avenue,Stret <br> Goodwood park Cape Town</li>
+						<li><a href="tel://0718377741">+2715 297 1051</a></li>
+						<li><a href="mailto:xhobyahyni@gmail.com">xhobyani@gmail.com</a></li>
+						<li><a href="http://healthupdate.co.za">Mshengu</a></li>
 					</ul>
 				</div>
 
@@ -370,7 +404,7 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2022  All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://acrosoft.co.za/" target="_blank">Acrosoft</a> Demo Images: <a href="https://pixabay.com/" target="_blank">Unsplash</a></small>
+						<small class="block">Designed by <a href="http://healthupdate.co.za/" target="_blank">HobyaniX</a> Demo Images: <a href="https://pixabay.com/" target="_blank">Project</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
