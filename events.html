@@ -6,21 +6,20 @@
 	<title>Tasty &mdash; The free restaurant that needs your food</title>
 	<link rel="icon" type="image/x-icon" href="images/logo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="The free restaurant that gives food" />
-	<meta name="keywords" content="restaurant, free food " />
-	<meta name="author" content="acrosoft" />
+	<meta name="description" content="The best café and restaurant in South Africa" />
+	<meta name="keywords" content="restaurant, café, cafe, tasty " />
+	<meta name="author" content="Basil-Vassilaros" />
 	
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta property="og:title" content="Tasty - café & restaurant"/>
+	<meta property="og:image" content="images/logo.png"/>
+	<meta property="og:url" content="https://www.facebook.com/Tasty-Caf%C3%A9-Restaurant-116384547731769"/>
+	<meta property="og:site_name" content="Tasty_ZA"/>
+	<meta property="og:description" content="café & restaurant"/>
+	<meta name="twitter:title" content="Tasty - café & restaurant" />
+	<meta name="twitter:image" content="images/logo.png" />
+	<meta name="twitter:url" content="https://wwww.twitter.com/Tasty_ZA" />
 
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
@@ -31,11 +30,8 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-
 	<!-- Flexslider  -->
 	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Date Time -->
-	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
@@ -79,8 +75,8 @@
 									<li><a href="menu.html#Milkshake">Milkshakes</a></li>
 								</ul>
 							</li>
-							<li><a href="events.html">Events</a></li>
-							<li class=""><a href="reservation.html">Reservation</a></li>
+							<li class="active"><a href="events.html">Events</a></li>
+							<li><a href="reservation.html">Reservation</a></li>
 							<li ><a href="about.html">About</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
@@ -91,7 +87,7 @@
 		<!-- </div> -->
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/banner-events.jpg);"data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight banner-events" role="banner" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -117,83 +113,74 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12" id="MothersDay">
-					<div class="fh5co-blog animate-box" >
-						<div class="event-item-img" style="background-image: url(images/img-events-mothers-day-2.jpg);">
-							<div class="event-img-overlay ">
-								<div class="blog-text">
-									<span class="posted_on">21 May 2022</span>
-									<h3><a>Mother's Day Lunch</a></h3>
-									<p>Come and enjoy a night of Mediterranean delight! Where we dish up all kinds of cuisine from around the Mediterranean Seas, all from various cultures and nations. </p>
-									<h3><a>Menu</a></h3>
-									<hr>
-									<div class="col-md-12 list-none">
-										<div class="col-md-3 float-left">
-											<p>Main</p>
-											<ul>
-												<li><p>Roast (Lamb/Beef/Chicken)</p></li>
-												<li><p>Portugese Rice</p></li>
-												<li><p>Roast Potatoes</p></li>
-												<li><p>Salads</p></li>
-											</ul>
-										</div>
-										
-										<div class="col-md-3 float-left">
-											<p>Sweets</p>
-											<ul>
-												<li><p>Lemon Meringue</p></li>
-												<li><p>Fruit Salad with Ice Cream</p></li>
-												<li><p>Ice Cream with Choc Sauce</p></li>
-											</ul>
-										</div>
-									</div>
-									<div class="col-md-12">
-											<hr>
-											<p><span>R150</span> per person (Mothers <sup>1</sup>/<sub>2</sub> price)</p>
-										<p><strong>Remember:</strong> Smart Casual Dressing (no shorts allowed)</p>
-										<ul class="stuff">
-											<li><i class="icon-heart2"></i>1.2K</li>
-											<li><i class="icon-eye2"></i>2K</li>
-											<li><a href="reservation.html" class="btn btn-outline btn-primary">Book Now</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-12" id="Bingo">
-					<div class="fh5co-blog animate-box" >
-						<div class="event-item-img" style="background-image: url(images/img-events-bingo.jpg);">
-							<div class="event-img-overlay ">
-								<div class="blog-text">
-									<span class="posted_on">14 May 2022</span>
-									<h3><a>Bingo Night</a></h3>
-									<p>Come and win big with a game of BINGO! Various prizes to win, so why wouldn't you go? So while playing, enjoy some good food too!</p>
-									<p>PRIZES</p>
+				<div class="col-md-12" >
+					<div class="fh5co-blog animate-box" id="MothersDay" >
+						<div class="blog-text event-img-overlay">
+							<span class="posted_on">21 May 2022</span>
+							<h3><a>Mother's Day Lunch</a></h3>
+							<p>Come and enjoy a night of Mediterranean delight! Where we dish up all kinds of cuisine from around the Mediterranean Seas, all from various cultures and nations. </p>
+							<h3><a>Menu</a></h3>
+							<hr>
+							<div class="col-md-12 list-none">
+								<div class="col-md-3">
+									<p>Main</p>
 									<ul>
-										<li><p><sup>1st</sup> Prize: R500 Voucher</p></li>
-										<li><p><sup>2nd</sup> Prize: R250 Take-away Voucher</p></li>
-										<li><p><sup>3rd</sup> Prize: Bottle of Wine</p></li>
-									</ul>
-									<p><strong>Remember:</strong> Smart Casual Dressing (no shorts allowed)</p>
-									<ul class="stuff">
-										<li><i class="icon-heart2"></i>1.2K</li>
-										<li><i class="icon-eye2"></i>2K</li>
-										<li><a href="reservation.html" class="btn btn-outline btn-primary">Book Now</a></li>
+										<li><p>Roast (Lamb/Beef/Chicken)</p></li>
+										<li><p>Portugese Rice</p></li>
+										<li><p>Roast Potatoes</p></li>
+										<li><p>Salads</p></li>
 									</ul>
 								</div>
+								<div class="col-md-3 ">
+									<p>Sweets</p>
+									<ul>
+										<li><p>Lemon Meringue</p></li>
+										<li><p>Fruit Salad with Ice Cream</p></li>
+										<li><p>Ice Cream with Choc Sauce</p></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<hr>
+								<p><span>R150</span> per person (Mothers <sup>1</sup>/<sub>2</sub> price)</p>
+								<p><strong>Remember:</strong> Smart Casual Dressing (no shorts allowed)</p>
+								<ul class="stuff">
+									<li><i class="icon-heart2"></i>1.2K</li>
+									<li><i class="icon-eye2"></i>2K</li>
+									<li><a href="reservation.html" class="btn btn-outline btn-primary">Book Now</a></li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-12" id="Mediterranean">
-					<div class="fh5co-blog animate-box" >
-						<div class="event-item-img" style="background-image: url(images/img-event-med.jpg);">
-							<div class="event-img-overlay ">
-								<div class="blog-text">
+				<div class="col-md-12">
+					<div class="fh5co-blog animate-box" id="Bingo" >	
+						<div class="blog-text event-img-overlay">
+							<span class="posted_on">14 May 2022</span>
+							<h3><a>Bingo Night</a></h3>
+							<p>Come and win big with a game of BINGO! Various prizes to win, so why wouldn't you go? So while playing, enjoy some good food too!</p>
+							<p>PRIZES</p>
+							<div class="col-md-12 list-none">
+								<ul>
+									<li><p><sup>1st</sup> Prize: R500 Voucher</p></li>
+									<li><p><sup>2nd</sup> Prize: R250 Take-away Voucher</p></li>
+									<li><p><sup>3rd</sup> Prize: Bottle of Wine</p></li>
+								</ul>
+							</div>
+							<p><strong>Remember:</strong> Smart Casual Dressing (no shorts allowed)</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>1.2K</li>
+								<li><i class="icon-eye2"></i>2K</li>
+								<li><a href="reservation.html" class="btn btn-outline btn-primary">Book Now</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12">
+					<div class="fh5co-blog animate-box" id="Mediterranean">
+								<div class="blog-text event-img-overlay">
 									<span class="posted_on">21 May 2022</span>
 									<h3><a>Mediterranean Night</a></h3>
 									<p>Come and enjoy a night of Mediterranean delight! Where we dish up all kinds of cuisine from around the Mediterranean Seas, all from various cultures and nations. </p>
@@ -201,7 +188,7 @@
 									<hr>
 
 									<div class="col-md-12 list-none">
-										<div class="col-md-3 float-left">
+										<div class="col-md-3">
 											<p>Starters</p>
 											<ul>
 												<li><p>Escargot (Snails) [France]</p></li>
@@ -212,7 +199,7 @@
 											</ul>
 										</div>
 										
-										<div class="col-md-2 float-left">
+										<div class="col-md-2 ">
 											<p>Salads</p>
 											<ul>
 												<li><p>Greek Salad</p></li>
@@ -221,7 +208,7 @@
 											</ul>
 										</div>
 
-										<div class="col-md-4 float-left">
+										<div class="col-md-4 ">
 											<p>Main</p>
 											<ul>
 												<li><p>Baked Lasagna [Italy]</p></li>
@@ -233,7 +220,7 @@
 											</ul>
 										</div>
 										
-										<div class="col-md-3 float-left">
+										<div class="col-md-3 ">
 											<p>Sweets</p>
 											<ul>
 												<li><p>Baklava [Greece]</p></li>
@@ -254,16 +241,13 @@
 										</ul>
 									</div>
 								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 
-				<div class="col-md-12" id="Band">
-					<div class="fh5co-blog animate-box" >
-						<div class="event-item-img" style="background-image: url(images/img-events-band.jpg);">
-							<div class="event-img-overlay ">
-								<div class="blog-text">
+				<div class="col-md-12">
+					<div class="fh5co-blog animate-box" id="Band">
+
+								<div class="blog-text event-img-overlay">
 									<span class="posted_on">29 May 2022</span>
 									<h3><a>Sugar Spoon (Live Band)</a></h3>
 									<p>Come and watch Suagr Spoon live! With a great night ahead of 60's, 70's & 80's music to enjoy and dance to. Best dress couple will recieve a prize! </p>
@@ -274,31 +258,26 @@
 										<li><a href="reservation.html" class="btn btn-outline btn-primary">Book Now</a></li>
 									</ul>
 								</div>
-							</div>
-						</div>
+
 					</div>
 				</div>
 
 				<hr>
 
-				<div class="col-md-12" id="karaoke">
-					<div class="fh5co-blog animate-box" >
-						<div class="event-item-img" style="background-image: url(images/img-events-mic.jpg);">
-							<div class="event-img-overlay ">
-								<div class="blog-text">
-									<span class="posted_on">05 May 2022</span>
-									<h3><a>Karaoke Night</a></h3>
-									<p>Come and give it your all. Belt it out and sing to the night. Thats Right! IT'S KARAOKE NIGHT!</p>
-									<p>Prize for Best Singer</p>
-									<p>Remember to dress in Smart Casuals (no shorts allowed).</p>
-									<ul class="stuff">
-										<li><i class="icon-heart2"></i>1.2K</li>
-										<li><i class="icon-eye2"></i>2K</li>
-										<li><a href="reservation.html" class="btn btn-outline btn-primary">Book Now</a></li>
-									</ul>
-								</div>
+				<div class="col-md-12">
+					<div class="fh5co-blog animate-box" id="karaoke">
+							<div class="blog-text event-img-overlay">
+								<span class="posted_on">05 May 2022</span>
+								<h3><a>Karaoke Night</a></h3>
+								<p>Come and give it your all. Belt it out and sing to the night. Thats Right! IT'S KARAOKE NIGHT!</p>
+								<p>Prize for Best Singer</p>
+								<p>Remember to dress in Smart Casuals (no shorts allowed).</p>
+								<ul class="stuff">
+									<li><i class="icon-heart2"></i>1.2K</li>
+									<li><i class="icon-eye2"></i>2K</li>
+									<li><a href="reservation.html" class="btn btn-outline btn-primary">Book Now</a></li>
+								</ul>
 							</div>
-						</div>
 					</div>
 				</div>
 				
@@ -307,7 +286,7 @@
 	</div>
 	
 	
-	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+	<div id="fh5co-started" class="fh5co-section animate-box" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">

@@ -453,6 +453,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.669);
   font-size: 18px;
   line-height: 1.5;
+  margin-bottom:10px;
 }
 
 .section-heading {
@@ -555,13 +556,9 @@ h1, h2, h3, h4, h5, h6, figure {
   border: none !important;
 }
 #fh5co-featured-testimony .fh5co-heading {
-  margin-bottom: 170px;
+  margin-bottom: 20px;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-featured-testimony .fh5co-heading {
-    margin-bottom: 50px;
-  }
-}
+
 #fh5co-featured-testimony .fh5co-heading h2 {
   color: #fff;
   font-family: "Satisfy", cursive;
@@ -739,6 +736,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-started {
   border-bottom: none;
+  background-image: url("../images/img-banner-book-now.jpg");
 }
 
 .fh5co-social-icons {
@@ -1049,7 +1047,10 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   margin-bottom: 40px;
+  background-position: center center;
+  background-size: cover;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-blog {
     width: 100%;
@@ -1070,9 +1071,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-blog .blog-text {
   position: relative;
-  padding: 30px;
+  padding: 60px 30px;
   float: left;
-  background: rgba(255, 255, 255, 0.03);
+  background-color: rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
@@ -1081,6 +1082,11 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
   width:100%;
 }
+
+.fh5co-blog .blog-text:hover{
+  background-color: rgba(50, 50, 50, 0.7);
+}
+
 .fh5co-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
@@ -1788,186 +1794,94 @@ textarea {
   color: #000 !important;
 }
 
-/*# sourceMappingURL=style.css.map */
-/* MY CUSTOM STYLES*/
-.menu-item > h3{
+/* sourceMappingURL=style.css.map
+---------------------------------------------------------------------
+MY CUSTOM STYLES
+---------------------------------------------------------------------
+Menu Page Styles 
+gives space between menu items*/
+.menu-item{
+  margin-bottom: 10px;
+}
+
+/* Lines up the headings in the menu items with the prices */
+.menu-item h3{
   float:left;
 }
 
-.menu-item > h2{
-  float:left;
-}
-
+/*Lines up the price tags of the menu items with their headings*/
 .menu-item > .menu-price{
   float:right;
-  margin-top:-12px;
-  margin-bottom:5px;
+  margin:-15px 0px 5px;
 }
 
+/*This is the styling for little notes under each Menu Group & for the dates of events*/
+.menu-note, .info-box span{
+  color:#fee856;
+}
+
+/* Styling for item descriptions of items that have more than one price (R00.00 | R10.00) */
+.menu-item-desc-up{
+  margin:-18px 0px 18px;
+}
+
+/* The following is just general universal styles */
+/* Change text color if menu item is Hot*/
 .text-color-red{
   color:#ea272d;
 }
 
-.text-color-yellow{
-  color:#fee856;
-}
-
+/* Change text color if menu item is vegeterian */
 .text-color-green{
   color:#68e450;
 }
 
-
-.menu-note{
-  margin-top:-18px;
-}
-
-.move-up-30{
-  margin-top:-30px;
-}
-
-.move-up-125{
-  margin-top:-125px;
-}
-
-.move-down-1000{
-  margin-top:1000px;
-}
-
-.position-absolute{
-  position:absolute;
-}
-
-.move-up-460{
-  margin-top:-400px;
-}
-
-
-
+/* Banner is in reference to images that appear next to the text*/
+/* If screen is desktop/computer */
 @media (min-width: 992px){
-
+  /*Ensuring the banners are at appropriate sizes*/
   .banner{
-    width:840px;
-    height:550px;
-    background-size: cover;
-    background-position: center;
+    width:150%;
   }
-
-  .col-md-push-1 {
-    left: 35.33333%;
-  }
-  .col-md-push-2 {
-    left: 8.33333%;
-  }
-  .col-md-push-3 {
-    left: 29.33333%;
-  }
-  .col-md-push-4 {
-    left: 66.33333%;
-  }
-
-  .testimony{
-    width:450px;
-    height:675px;
-    background-size:cover;
-    background-position: center;
-  }
-
 }
 
+/* If screen is mobile/phone */
 @media (max-width: 992px){
-
-  .testimony{
-    width:100%;
-    background-size:cover;
-    background-position: center;
-  }
+  /*Ensuring the banners are at appropriate sizes & that there is space for headings when in mobile*/
   .banner{
     width:100%;
-  
-    background-size: cover;
-    background-position: center;
+    margin-bottom:10px;
   }
-
 }
 
-.specials-pizza-image{
-  background-image: url('../images/img-special-pizza.jpg');
-}
-
-.specials-break-image{
-  background-image: url('../images/img-special-cake.jpg');
-}
-
-.specials-meal-image{
-  background-image: url('../images/img-special-burger.jpg');
-}
-
-.width-100{
-  width: 100%;
-}
-
-.width-30{
-  width: 30%;
-}
-
-.width-70{
-  width: 70%;
-}
-
-.float-left{
-  float:left;
-}
-
-.float-right{
-  float:right;
-}
-
-.event-item-img{
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  float: left;
-  transition: 0.3s;
-  width:100%;
-  margin:15px 0px;
-}
-
-.event-img-overlay{
-  background-color:rgba(0, 0, 0, 0.669);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  float: left;
-  transition: 0.3s;
+/* Ensures the image of the testimonies, event background images (and their overlays) are at appropriate sizes */
+.testimony-img{
   width:100%;
 }
 
-.event-img-overlay:hover{
-  background-color:rgba(25, 25, 25, 0.669);
-}
-
-.event-item-text-right .event-item-text-left{
-  position:fixed;
-}
-
-.event-item-text-left{
-  float:left;
-}
-
-.event-item-text-right{
-  float:right;
-}
-
+/* Sets the event cards in the index*/
 .index-event{
-  height:400px;
+  height:170px;
+  background: rgba(0, 0, 0, 0.3) !important;
+  overflow: hidden;
 }
 
+/* Sets the event cards in the index with a hover animation*/
+.index-event:hover{
+  height:400px;
+  overflow:visible;
+  background: rgba(50, 50, 50, 0.3) !important;
+}
+
+/* small boxes in the contact & reservation pages that hold extra information */
+/* this just renders the box itself */
 .info-box{
   border: 4px solid rgba(255, 255, 255, 0.04);
   padding: 30px;
   margin:0px 15px 10px;
 }
 
+/* this makes the headings for the info-box better */
 .info-box h4{
   color: #fff;
   text-transform: uppercase;
@@ -1976,18 +1890,56 @@ textarea {
   font-size: 20px;
 }
 
-.info-box ul li{
+/* this hides the bullets for list items */
+.list-none ul li{
   list-style: none;
 }
 
-.info-box span{
-  color:#fee856;
+/* The Following are BACKGROUND IMAGES!!!! */
+/* Main Banner Headers - adds the background images for the headers of the respective pages*/
+.banner-about{
+  background-image: url('../images/banner-about.jpg');
+}
+.banner-contact{
+  background-image: url('../images/banner-contact.jpg');
+}
+.banner-events{
+  background-image: url('../images/banner-events.jpg');
+}
+.banner-index{
+  background-image: url('../images/banner-index.jpg');
+}
+.banner-menu{
+  background-image: url('../images/banner-menu.jpg');
+}
+.banner-reservation{
+  background-image: url('../images/banner-reservation.jpg');
 }
 
-.info-box ul li p{
-  margin-left:50px;
+/* Special Menu in Index page*/
+#SPizza{
+  background-image: url('../images/img-special-pizza.jpg');
+}
+#SCake{
+  background-image: url('../images/img-special-cake.jpg');
+}
+#SMeal{
+  background-image: url('../images/img-special-burger.jpg');
 }
 
-.list-none div ul li{
-  list-style: none;
+/*EVENT ITEM*/
+#MothersDay{
+  background-image: url('../images/img-events-mothers-day-2.jpg');
+}
+#Bingo{
+  background-image: url('../images/img-events-bingo.jpg');
+}
+#Mediterranean{
+  background-image: url('../images/img-event-med.jpg');
+}
+#Band{
+  background-image: url('../images/img-events-band.jpg');
+}
+#karaoke{
+  background-image: url('../images/img-events-mic.jpg');
 }
