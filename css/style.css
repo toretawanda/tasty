@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.9);
   background: #000 url(../images/broken_noise.png) repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -122,6 +122,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background: transparent;
   }
 }
+
 .fh5co-nav #fh5co-logo {
   font-size: 32px;
   margin: 0;
@@ -129,6 +130,11 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 700;
   font-family: "Cormorant Garamond", Georgia, serif;
   color: #fff !important;
+  background-image: url("../images/logo.png");
+  background-size:50px;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 100px);
+
 }
 .scrolled .fh5co-nav #fh5co-logo {
   color: #000 !important;
@@ -444,15 +450,17 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-section p {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.669);
   font-size: 18px;
   line-height: 1.5;
+  margin-bottom:10px;
 }
 
 .section-heading {
   width: 100%;
   float: left;
   margin-bottom: 50px;
+  
 }
 .section-heading h2 {
   font-style: 40px;
@@ -488,7 +496,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-featured-menu .fh5co-item, #fh5co-gallery .fh5co-item, #fh5co-reservation-form .fh5co-item {
   float: left;
   width: 100%;
-  backround: #fff;
+  /*backround: #fff;*/
 }
 #fh5co-featured-menu .fh5co-item.margin_top, #fh5co-gallery .fh5co-item.margin_top, #fh5co-reservation-form .fh5co-item.margin_top {
   margin-top: 150px;
@@ -548,13 +556,9 @@ h1, h2, h3, h4, h5, h6, figure {
   border: none !important;
 }
 #fh5co-featured-testimony .fh5co-heading {
-  margin-bottom: 170px;
+  margin-bottom: 20px;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-featured-testimony .fh5co-heading {
-    margin-bottom: 50px;
-  }
-}
+
 #fh5co-featured-testimony .fh5co-heading h2 {
   color: #fff;
   font-family: "Satisfy", cursive;
@@ -732,6 +736,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-started {
   border-bottom: none;
+  background-image: url("../images/img-banner-book-now.jpg");
 }
 
 .fh5co-social-icons {
@@ -1042,7 +1047,10 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   margin-bottom: 40px;
+  background-position: center center;
+  background-size: cover;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-blog {
     width: 100%;
@@ -1050,7 +1058,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-blog .blog-bg {
   display: block;
-  width: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1063,24 +1070,28 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-blog .blog-text {
-  margin-bottom: 30px;
   position: relative;
-  width: 100%;
-  padding: 30px;
+  padding: 60px 30px;
   float: left;
-  background: rgba(255, 255, 255, 0.03);
+  background-color: rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  width:100%;
 }
+
+.fh5co-blog .blog-text:hover{
+  background-color: rgba(50, 50, 50, 0.7);
+}
+
 .fh5co-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 14px !important;
-  color: rgba(0, 0, 0, 0.3);
+  font-size: 18px !important;
+  color:#fee856;
 }
 .fh5co-blog .blog-text .stuff {
   margin: 0;
@@ -1134,7 +1145,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
 }
 .fh5co-portfolio > a:hover {
-  webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
   box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.13);
 }
@@ -1376,7 +1387,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1783,4 +1794,152 @@ textarea {
   color: #000 !important;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* sourceMappingURL=style.css.map
+---------------------------------------------------------------------
+MY CUSTOM STYLES
+---------------------------------------------------------------------
+Menu Page Styles 
+gives space between menu items*/
+.menu-item{
+  margin-bottom: 10px;
+}
+
+/* Lines up the headings in the menu items with the prices */
+.menu-item h3{
+  float:left;
+}
+
+/*Lines up the price tags of the menu items with their headings*/
+.menu-item > .menu-price{
+  float:right;
+  margin:-15px 0px 5px;
+}
+
+/*This is the styling for little notes under each Menu Group & for the dates of events*/
+.menu-note, .info-box span{
+  color:#fee856;
+}
+
+/* Styling for item descriptions of items that have more than one price (R00.00 | R10.00) */
+.menu-item-desc-up{
+  margin:-18px 0px 18px;
+}
+
+/* The following is just general universal styles */
+/* Change text color if menu item is Hot*/
+.text-color-red{
+  color:#ea272d;
+}
+
+/* Change text color if menu item is vegeterian */
+.text-color-green{
+  color:#68e450;
+}
+
+/* Banner is in reference to images that appear next to the text*/
+/* If screen is desktop/computer */
+@media (min-width: 992px){
+  /*Ensuring the banners are at appropriate sizes*/
+  .banner{
+    width:150%;
+  }
+}
+
+/* If screen is mobile/phone */
+@media (max-width: 992px){
+  /*Ensuring the banners are at appropriate sizes & that there is space for headings when in mobile*/
+  .banner{
+    width:100%;
+    margin-bottom:10px;
+  }
+}
+
+/* Ensures the image of the testimonies, event background images (and their overlays) are at appropriate sizes */
+.testimony-img{
+  width:100%;
+}
+
+/* Sets the event cards in the index*/
+.index-event{
+  height:170px;
+  background: rgba(0, 0, 0, 0.3) !important;
+  overflow: hidden;
+}
+
+/* Sets the event cards in the index with a hover animation*/
+.index-event:hover{
+  height:400px;
+  overflow:visible;
+  background: rgba(50, 50, 50, 0.3) !important;
+}
+
+/* small boxes in the contact & reservation pages that hold extra information */
+/* this just renders the box itself */
+.info-box{
+  border: 4px solid rgba(255, 255, 255, 0.04);
+  padding: 30px;
+  margin:0px 15px 10px;
+}
+
+/* this makes the headings for the info-box better */
+.info-box h4{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* this hides the bullets for list items */
+.list-none ul li{
+  list-style: none;
+}
+
+/* The Following are BACKGROUND IMAGES!!!! */
+/* Main Banner Headers - adds the background images for the headers of the respective pages*/
+.banner-about{
+  background-image: url('../images/banner-about.jpg');
+}
+.banner-contact{
+  background-image: url('../images/banner-contact.jpg');
+}
+.banner-events{
+  background-image: url('../images/banner-events.jpg');
+}
+.banner-index{
+  background-image: url('../images/banner-index.jpg');
+}
+.banner-menu{
+  background-image: url('../images/banner-menu.jpg');
+}
+.banner-reservation{
+  background-image: url('../images/banner-reservation.jpg');
+}
+
+/* Special Menu in Index page*/
+#SPizza{
+  background-image: url('../images/img-special-pizza.jpg');
+}
+#SCake{
+  background-image: url('../images/img-special-cake.jpg');
+}
+#SMeal{
+  background-image: url('../images/img-special-burger.jpg');
+}
+
+/*EVENT ITEM*/
+#MothersDay{
+  background-image: url('../images/img-events-mothers-day-2.jpg');
+}
+#Bingo{
+  background-image: url('../images/img-events-bingo.jpg');
+}
+#Mediterranean{
+  background-image: url('../images/img-event-med.jpg');
+}
+#Band{
+  background-image: url('../images/img-events-band.jpg');
+}
+#karaoke{
+  background-image: url('../images/img-events-mic.jpg');
+}
